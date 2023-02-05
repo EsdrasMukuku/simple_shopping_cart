@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping Cart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/application.js"></script>
+    <!-- links -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  </head>
+
+  <body class="blur" style="background-image: url('./images/pink-shopping-cart-background_MkzrwOc__SB_PM.jpg" >
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cart" class="container border" >
+      <div class="row title border-bottom">
+        <div class="col">
+          <h2>Checkout</h2>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item pt-4">
+        <div class="item-name col-5">
+          Salmon
+        </div>
+        <div class="item-price col">
+          $60.00
+        </div>
+        <div class="item-qty col-2" >
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Tuna
+        </div>
+        <div class="item-price col">
+          $50.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Carp
+        </div>
+        <div class="item-price col">
+          $40.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Pork
+        </div>
+        <div class="item-price col">
+          $50.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Beef
+        </div>
+        <div class="item-price col">
+          $40.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Chicken
+        </div>
+        <div class="item-price col">
+          $25.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Cereal
+        </div>
+        <div class="item-price col">
+          $45.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Milk
+        </div>
+        <div class="item-price col">
+          $20.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Sugar
+        </div>
+        <div class="item-price col">
+          $15.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Oatmeal
+        </div>
+        <div class="item-price col">
+          $4.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="row item">
+        <div class="item-name col-5">
+          Bread
+        </div>
+        <div class="item-price col">
+          $5.00
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+        $0.00
+        </div>
+        <div class="col">
+          <button class="remove btn btn-link">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- add new item -->
+      <div class="row new item pb-4">
+        <div class="item-name col-5">
+          <input placeholder="Item name" id="name">
+        </div>
+        <div class="col">
+          <input placeholder="Price" id="cost" type="number">
+        </div>
+        <div class="item-qty col-2">
+          <label>QTY</label>
+          <input class="quantity" type="number">
+        </div>
+        <div class="item-subtotal col">
+          $0.00
+        </div>
+        <div class="col">
+          <button id="add" class="btn btn-link">
+            <i class="fas fa-cart-plus"></i>
+          </button>
+        </div>
+      </div>
+
+
+   <!-- cart subtotal & tax -->
+   <div class="row border-top pt-4">
+      <div class="col-2 offset-6">
+        <h3 class="ml-5">Subtotal: </h3>
+      </div>
+      <div class="col">
+        <p id="cart-subtotal">$0.00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 offset-6">
+        <h3 class="ml-5">GST: </h3>
+      </div>
+      <div class="col">
+        <p id="gst">$0.00</p>
+      </div>
+    </div>
+    <div class="row pb-4">
+      <div class="col-2 offset-6">
+        <h3 class="ml-5">Total: </h3>
+      </div>
+      <div class="col">
+        <p id="cart-total">$0.00</p>
+      </div>
+      <div class="col">
+        <button id="checkout" class="btn btn-link"><i class="fas fa-credit-card"></i></button>
+      </div>
+    </div>
+</div>
+
+<footer class="blur">© Grocery Store</footer>
+
+  </body>
+</html> 
